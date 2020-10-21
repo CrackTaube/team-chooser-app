@@ -10,7 +10,7 @@ Zunächst verwenden wir "thrinket" von Thonny, um Python zu schreiben. Einige vo
 Wir listen den Spielnamen in eckigen Klammern [] mit einem Komma zwischen den einzelnen Elementen in der Liste auf.Print dann Player-Variable. 
 
 
-# Schritte 3 Random, apend und remove Funktion hinzufügen
+# Schritte 3 Random, append und remove Funktion hinzufügen
 Um einen zufälligen Spieler aus Spielerliste zu erhalten, müssen wir zuerst den ausgewählten Teil des "random" moduls importieren.
 
 Um einen zufälligen Spieler zu erhalten, können wir die "choice" verwenden.
