@@ -32,8 +32,8 @@ players = file.read().splitlines()
 
 # Schritte 4 Fehlermedlung erheben, um mit einer ungeraden Anzahl von Spielern zu arbeiten.
 Wenn wir der Datei player.txt einen anderen Namen hinzufügen, sodass wir eine ungerade Anzahl von Spielern haben. Wenn wir Code testen, wird eine Fehlermeldung angezeigt. Der Fehler liegt darin, dass unser Programm weiterhin zufällige Spieler für das Team auswählt A und dann Team B. Wenn es jedoch eine ungerade Anzahl von Spielern gibt, stehen nach Auswahl eines Spielers für Team A keine Spieler mehr zur Auswahl für Team B. Um diesen Fehler zu beheben, können wir das Programm anweisen, aus unserer while-Schleife auszubrechen, wenn die Spielerliste leer ist.
-
-        
+     
  if players == []:
+       
        break
 
