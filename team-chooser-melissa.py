@@ -1,3 +1,5 @@
+#create players list 
+
 players = ["Melissa","Alex","Leon","Sophia"]
 print(players)
 
@@ -6,11 +8,11 @@ print(players[1])
 print(players[2])
 print(players[3])
 
+
+#add random, append, remove function 
+
 from random import choice
 print(choice(players))
-
-playerA = choice(players)
-print(playerA)
 
 teamA=[]
 playerA = choice(players)
@@ -39,7 +41,10 @@ while len(players) > 0:
 
 print("Team A:", teamA)
 print("Team B:", teamB)
-    
+
+
+#choose more players and open a new file 
+
 players = []
 file = open("players.txt", "r")
 players = file.read().splitlines()
@@ -47,6 +52,9 @@ print(players)
 
 teamA = []
 teamB = []
+
+
+#odd players
 
 while len(players) > 0:
     playerA = choice(players)
