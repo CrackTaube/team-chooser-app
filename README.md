@@ -3,11 +3,11 @@ In diesem Projekt "Team Chooser" lernen wir, wie man ein Programm erstellt, um e
 
 
 # Schritte 1 Program benutzen 
-Zunächst verwenden wir "thrinket" von Thonny, um Python zu schreiben. Einige von uns haben auch Pycharm und Visual Studio Code benutz.  
+Zunächst verwenden wir "thrinket" von Thonny, um Python zu schreiben. Einige von uns haben auch Pycharm und Visual Studio Code benutzt.  
 
 
 # Schritte 2 Spielerliste erstellen
-Wir listen den Spielnamen in eckigen Klammern [] mit einem Komma zwischen den einzelnen Elementen in der Liste auf.Print dann Player-Variable. 
+Wir listen den Spielnamen in eckigen Klammern [] mit einem Komma zwischen den einzelnen Elementen in der Liste auf. Print dann Player-Variable. 
 
 
 # Schritte 3 Random, append und remove Funktion hinzufügen
